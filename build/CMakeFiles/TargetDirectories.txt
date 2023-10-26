@@ -1,0 +1,3 @@
+/home/sw/CLionProjects/bhh/build/CMakeFiles/bhh.dir
+/home/sw/CLionProjects/bhh/build/CMakeFiles/edit_cache.dir
+/home/sw/CLionProjects/bhh/build/CMakeFiles/rebuild_cache.dir
