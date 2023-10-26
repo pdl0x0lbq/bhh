@@ -69,31 +69,68 @@ include CMakeFiles/bhh.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/bhh.dir/flags.make
 
-CMakeFiles/bhh.dir/main.cpp.o: CMakeFiles/bhh.dir/flags.make
-CMakeFiles/bhh.dir/main.cpp.o: ../main.cpp
-CMakeFiles/bhh.dir/main.cpp.o: CMakeFiles/bhh.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sw/CLionProjects/bhh/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/bhh.dir/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/bhh.dir/main.cpp.o -MF CMakeFiles/bhh.dir/main.cpp.o.d -o CMakeFiles/bhh.dir/main.cpp.o -c /home/sw/CLionProjects/bhh/main.cpp
+CMakeFiles/bhh.dir/src/BFS.cpp.o: CMakeFiles/bhh.dir/flags.make
+CMakeFiles/bhh.dir/src/BFS.cpp.o: ../src/BFS.cpp
+CMakeFiles/bhh.dir/src/BFS.cpp.o: CMakeFiles/bhh.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sw/CLionProjects/bhh/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/bhh.dir/src/BFS.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/bhh.dir/src/BFS.cpp.o -MF CMakeFiles/bhh.dir/src/BFS.cpp.o.d -o CMakeFiles/bhh.dir/src/BFS.cpp.o -c /home/sw/CLionProjects/bhh/src/BFS.cpp
 
-CMakeFiles/bhh.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bhh.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sw/CLionProjects/bhh/main.cpp > CMakeFiles/bhh.dir/main.cpp.i
+CMakeFiles/bhh.dir/src/BFS.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bhh.dir/src/BFS.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sw/CLionProjects/bhh/src/BFS.cpp > CMakeFiles/bhh.dir/src/BFS.cpp.i
 
-CMakeFiles/bhh.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bhh.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sw/CLionProjects/bhh/main.cpp -o CMakeFiles/bhh.dir/main.cpp.s
+CMakeFiles/bhh.dir/src/BFS.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bhh.dir/src/BFS.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sw/CLionProjects/bhh/src/BFS.cpp -o CMakeFiles/bhh.dir/src/BFS.cpp.s
+
+CMakeFiles/bhh.dir/src/DFS.cpp.o: CMakeFiles/bhh.dir/flags.make
+CMakeFiles/bhh.dir/src/DFS.cpp.o: ../src/DFS.cpp
+CMakeFiles/bhh.dir/src/DFS.cpp.o: CMakeFiles/bhh.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sw/CLionProjects/bhh/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/bhh.dir/src/DFS.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/bhh.dir/src/DFS.cpp.o -MF CMakeFiles/bhh.dir/src/DFS.cpp.o.d -o CMakeFiles/bhh.dir/src/DFS.cpp.o -c /home/sw/CLionProjects/bhh/src/DFS.cpp
+
+CMakeFiles/bhh.dir/src/DFS.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bhh.dir/src/DFS.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sw/CLionProjects/bhh/src/DFS.cpp > CMakeFiles/bhh.dir/src/DFS.cpp.i
+
+CMakeFiles/bhh.dir/src/DFS.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bhh.dir/src/DFS.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sw/CLionProjects/bhh/src/DFS.cpp -o CMakeFiles/bhh.dir/src/DFS.cpp.s
+
+CMakeFiles/bhh.dir/src/main.cpp.o: CMakeFiles/bhh.dir/flags.make
+CMakeFiles/bhh.dir/src/main.cpp.o: ../src/main.cpp
+CMakeFiles/bhh.dir/src/main.cpp.o: CMakeFiles/bhh.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sw/CLionProjects/bhh/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/bhh.dir/src/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/bhh.dir/src/main.cpp.o -MF CMakeFiles/bhh.dir/src/main.cpp.o.d -o CMakeFiles/bhh.dir/src/main.cpp.o -c /home/sw/CLionProjects/bhh/src/main.cpp
+
+CMakeFiles/bhh.dir/src/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bhh.dir/src/main.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sw/CLionProjects/bhh/src/main.cpp > CMakeFiles/bhh.dir/src/main.cpp.i
+
+CMakeFiles/bhh.dir/src/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bhh.dir/src/main.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sw/CLionProjects/bhh/src/main.cpp -o CMakeFiles/bhh.dir/src/main.cpp.s
 
 # Object files for target bhh
 bhh_OBJECTS = \
-"CMakeFiles/bhh.dir/main.cpp.o"
+"CMakeFiles/bhh.dir/src/BFS.cpp.o" \
+"CMakeFiles/bhh.dir/src/DFS.cpp.o" \
+"CMakeFiles/bhh.dir/src/main.cpp.o"
 
 # External object files for target bhh
 bhh_EXTERNAL_OBJECTS =
 
-bhh: CMakeFiles/bhh.dir/main.cpp.o
+bhh: CMakeFiles/bhh.dir/src/BFS.cpp.o
+bhh: CMakeFiles/bhh.dir/src/DFS.cpp.o
+bhh: CMakeFiles/bhh.dir/src/main.cpp.o
 bhh: CMakeFiles/bhh.dir/build.make
+bhh: _deps/ftxui-build/libftxui-screen.a
+bhh: _deps/ftxui-build/libftxui-dom.a
+bhh: _deps/ftxui-build/libftxui-component.a
+bhh: _deps/ftxui-build/libftxui-dom.a
+bhh: _deps/ftxui-build/libftxui-screen.a
 bhh: CMakeFiles/bhh.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/sw/CLionProjects/bhh/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable bhh"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/sw/CLionProjects/bhh/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable bhh"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/bhh.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

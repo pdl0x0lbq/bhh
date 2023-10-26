@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = 
+CXX_INCLUDES = -I/home/sw/CLionProjects/bhh/inc -I/home/sw/CLionProjects/bhh/src -isystem /home/sw/CLionProjects/bhh/build/_deps/ftxui-src/include
 
 CXX_FLAGS = 
 

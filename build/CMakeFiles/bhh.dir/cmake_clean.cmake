@@ -1,6 +1,10 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/bhh.dir/main.cpp.o"
-  "CMakeFiles/bhh.dir/main.cpp.o.d"
+  "CMakeFiles/bhh.dir/src/BFS.cpp.o"
+  "CMakeFiles/bhh.dir/src/BFS.cpp.o.d"
+  "CMakeFiles/bhh.dir/src/DFS.cpp.o"
+  "CMakeFiles/bhh.dir/src/DFS.cpp.o.d"
+  "CMakeFiles/bhh.dir/src/main.cpp.o"
+  "CMakeFiles/bhh.dir/src/main.cpp.o.d"
   "bhh"
   "bhh.pdb"
 )

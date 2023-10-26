@@ -1,1 +1,1 @@
-/usr/bin/c++ CMakeFiles/bhh.dir/main.cpp.o -o bhh 
+/usr/bin/c++ CMakeFiles/bhh.dir/src/BFS.cpp.o CMakeFiles/bhh.dir/src/DFS.cpp.o CMakeFiles/bhh.dir/src/main.cpp.o -o bhh  _deps/ftxui-build/libftxui-screen.a _deps/ftxui-build/libftxui-dom.a _deps/ftxui-build/libftxui-component.a _deps/ftxui-build/libftxui-dom.a _deps/ftxui-build/libftxui-screen.a 
