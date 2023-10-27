@@ -21,7 +21,7 @@ void DFS::printBoard(vector<int> &board) const{
     cout << endl;
 }
 // 检查是否可以在board[row][col]放置皇后
-bool DFS::isSafe(vector<int> &board, int row, int col) const {
+bool DFS::check(vector<int> &board, int row, int col) const {
     // 检查列是否有其他皇后
     for (int i = 0; i < row; i++) {
         if (board[i] == col) {
@@ -55,7 +55,7 @@ void DFS::solve(vector<int> &board, int row) {
     }
 
     for (int col = 0; col < N; col++) {
-        if (isSafe(board, row, col)) {
+        if (check(board, row, col)) {
             board[row] = col;
             solve(board, row + 1);
             board[row] = -1; // 回溯

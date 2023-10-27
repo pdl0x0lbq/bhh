@@ -11,7 +11,7 @@ public:
     int N;
     explicit DFS(int n);
     void printBoard(std::vector<int> &board) const;
-    bool isSafe(std::vector<int> &board, int row, int col) const;
+    bool check(vector<int> &board, int row, int col) const;
     void solve(std::vector<int> &board, int row);
     void Solve();
 };

@@ -25,7 +25,7 @@ void BFS::printBoard(const vector<int> &board) {
 }
 
 // 检查是否可以在board[row][col]放置皇后
-bool BFS::isSafe(const vector<int> &board, int row, int col) {
+bool BFS::check(const vector<int> &board, int row, int col) {
     // 检查列是否有其他皇后
     for (int i = 0; i < row; i++) {
         if (board[i] == col) {
@@ -68,7 +68,7 @@ void BFS::Solve() {
             printBoard(board);
         } else {
             for (int col = 0; col < N; col++) {
-                if (isSafe(board, row, col)) {
+                if (check(board, row, col)) {
                     board[row] = col;
                     q.push(board);
                     board[row] = -1; // 回溯
