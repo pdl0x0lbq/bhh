@@ -42,7 +42,5 @@ int main() {
             std::cout << "Selected element = " << 1 << std::endl;
             break;
     }
-    //dfs.Solve();
-    //bfs.Solve();
     return 0;
 }

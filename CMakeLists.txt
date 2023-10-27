@@ -27,5 +27,5 @@ target_include_directories(bhh PRIVATE src)
 target_link_libraries(bhh
         PRIVATE ftxui::screen
         PRIVATE ftxui::dom
-        PRIVATE ftxui::component # Not needed for this example.
+        PRIVATE ftxui::component
 )
