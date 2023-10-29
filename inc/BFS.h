@@ -13,7 +13,7 @@ public:
     int N;
     explicit BFS(int n);
     void printBoard(const std::vector<int> &board);
-    bool check(const vector<int> &board, int row, int col);
+    bool check(const std::vector<int> &board, int row, int col);
     void Solve();
 };
 

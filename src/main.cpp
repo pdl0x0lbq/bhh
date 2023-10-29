@@ -1,11 +1,8 @@
 //
 // Created by sw on 23-10-23.
 //
-#include <functional>
 #include <iostream>
 #include <vector>
-#include <ftxui/screen/screen.hpp>
-#include "ftxui/component/captured_mouse.hpp"      // for ftxui
 #include "ftxui/component/component.hpp"           // for Menu
 #include "ftxui/component/component_options.hpp"   // for MenuOption
 #include "ftxui/component/screen_interactive.hpp"  // for ScreenInteractive
